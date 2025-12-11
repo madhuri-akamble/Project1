@@ -4,6 +4,7 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
     
 }
 
@@ -25,6 +26,7 @@ header nav ul {
 header nav ul li {
     font-size: 25px;
     color: darkslategray;
+    
 }
 
 nav ul a {
@@ -38,6 +40,7 @@ nav ul a {
     align-items: center;
     justify-content: center;
     height: 400px;
+    margin-bottom: 50px;
 }
 
 .home-image h2 {
@@ -53,10 +56,20 @@ nav ul a {
     gap: 20px;
 }
 
-.link-recipe .center-image {
-    max-width: 100%;
-    height: auto;
+.center-image {
+    width: 600px;
+    height: 350px;
     border-radius: 15px;
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: darkslategray;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 
