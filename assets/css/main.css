@@ -1,0 +1,65 @@
+header{
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header h1 { 
+    font-size: 50px;
+    font-weight: bolder;
+    color: slategray
+}
+
+header nav ul {
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 0; 
+    
+}
+
+header nav ul li {
+    font-size: 25px;
+    color: darkslategray;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+/* CSS for home page image and header */
+
+.home-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.home-image h2 {
+    font-size: 25px;
+    color: darkslategray;
+}
+
+.link-recipe{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.link-recipe .center-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+
+
+
