@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recipe World</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+
 </head>
 <body>
     <header>
@@ -16,11 +18,34 @@
             </ul>
         </nav>
     </header>
-    <section>
-        Suggestions
-    </section>
+    
+       <div class="container">
+            <h2>SUGGEST</h2>
+       </div>
+
+       <form action="">
+        <label for="rname">Recipe Name:</label><br>
+        <input type="text" id="rname" name="rname"><br>
+
+        <label for="ingredients">Ingredients:</label><br>
+        <textarea id="ingredients" name="ingredients" rows="4" cols="50"></textarea><br><br>
+
+        <label for="fullname">Your Name:</label><br>
+        <input type="text" id="fullname" name="fullname"><br>
+
+        <label for="emailaddress">Your Email:</label><br>
+        <input type="email" id="emailaddress" name="emailaddress"><br>
+        
+        <div class="checkbox">
+            <input type="checkbox" id="agree" name="agree">
+            <label for="agree"> Agree with T&C</label><br><br>
+        </div>
+
+        <button type="submit">Click To Submit</button>
+       </form>
+    
     <footer>
-        &copy; 2025 Recipe Book
+        &copy; 2025 RECIPE WORLD - MADHURI KAMBLE
     </footer>
 </body>
 </html>
