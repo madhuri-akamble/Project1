@@ -50,7 +50,7 @@ nav ul a {
 
 .home-image h2 {
     font-size: 25px;
-    color: darkslategray;
+    color: red;
 }
 
 .link-recipe{
@@ -93,6 +93,10 @@ nav ul a {
     border: 1px solid black;
     border-radius: 5px;
     object-fit: cover;
+}
+
+.row h2 {
+    color: red;
 }
 
 
