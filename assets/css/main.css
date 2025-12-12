@@ -63,14 +63,32 @@ nav ul a {
     object-fit: cover;
 }
 
-footer {
-    text-align: center;
-    padding: 20px 0;
-    color: darkslategray;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+/* CSS for recipe page */
+
+.recipe-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 80%;
+    margin: 40px auto;
+    }
+
+.row {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
+
+.row img {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+/* CSS for Form  */
 
 .container {
     display: flex;
@@ -128,6 +146,15 @@ button {
     font-size: 16px;
     cursor: pointer;
     
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: darkslategray;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
 
