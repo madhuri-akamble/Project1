@@ -14,6 +14,11 @@ header h1 {
     color: slategray
 }
 
+.main{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 header nav ul {
     display: flex;
     gap: 60px;
